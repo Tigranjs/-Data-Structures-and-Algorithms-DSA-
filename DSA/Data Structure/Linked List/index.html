@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Structura Linked List</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    
+    <div id="root">
+        <div class="continer">
+            <h2>Linked List</h2>
+            <p>A Linked List is, as the word implies, a list where the nodes are linked together. Each node contains data and a pointer. The way they are linked together is that each node points to where in the memory the next node is placed.            </p>
+            <button class="button-64" onclick="document.querySelector('.continer').classList.add('continer_close')"><span>Start</span></button>
+        </div>  
+        <div class="example_continer">
+            <div class="linkedList"></div>
+        </div>
+        <div class="screen_continer">
+            <div class="info"></div>
+        </div>
+        <div class="menu">
+            <button class="button-64" onclick="AddOneObject()"><span>Create</span></button>
+            <button class="button-64" onclick="RemoveOneObject()"><span>Delete</span></button>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>

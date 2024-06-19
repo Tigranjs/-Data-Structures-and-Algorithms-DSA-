@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    
+    <div id="root">
+        <div class="continer">
+            <h2>Queue</h2>
+            <p>A queue is an ordered list of elements where an element is inserted at the end of the queue and is removed from the front of the queue.A queue works based on the first-in, first-out (FIFO) principle, which is different from a stack, which works based on the last-in, first-out (LIFO) principle.</p>
+            <button class="button-64" onclick="document.querySelector('.continer').classList.add('continer_close')"><span>Start</span></button>
+        </div>
+        <div class="example_continer">
+            <div class="queue"></div>
+        </div>
+        <div class="screen_continer">
+            <div class="info"></div>
+        </div>
+        <div class="menu">
+            <button class="button-64"><span>Enqueue</span></button>
+            <button class="button-64"><span>Dequeue</span></button>
+            <button class="button-64"><span>Peek</span></button>
+            <button class="button-64"><span>IsEmpty</span></button>
+            <button class="button-64"><span>IsFull</span></button>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
